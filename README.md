@@ -26,8 +26,8 @@ src/styles/global.scss 配置全局类名
 
 ### 目录说明
 ```
-├── api         ## 请求API              
-├── module      ## UI Module               
+├── api         // 请求API                            
+├── module      // UI Module               
 ├── pages       // 页面           
 ├── plugins     // 功能插件 如:消息提示,导出PDF...          
 ├── static      // 静态资源 如:图标,字体        
