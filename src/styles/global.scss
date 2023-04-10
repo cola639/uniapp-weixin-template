@@ -1,51 +1,4 @@
-@media screen and (min-width: 375px) {
-  html {
-    font-size: 37.5px;
-  }
-}
-
-@media screen and (min-width: 475px) {
-  html {
-    font-size: 47.5px;
-  }
-}
-
-@media screen and (min-width: 575px) {
-  html {
-    font-size: 57.5px;
-  }
-}
-@media screen and (min-width: 675px) {
-  html {
-    font-size: 67.5px;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  html {
-    font-size: 75px;
-  }
-}
-
-@media screen and (min-width: 850px) {
-  html {
-    font-size: 85px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 102.4px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  html {
-    font-size: 192px;
-  }
-}
-
-/* font style */
+/* global font style */
 *,
 *::after {
   font-family: 'Arial', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
@@ -55,6 +8,11 @@
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+/* font style */
+.ft {
+  font-family: 'Arial', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
 }
 
 .flex-center {
@@ -165,11 +123,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-/* font style */
-.ft {
-  font-family: 'Arial', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
 }
 
 .red {
