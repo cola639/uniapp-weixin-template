@@ -1,0 +1,181 @@
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 37.5px;
+  }
+}
+
+@media screen and (min-width: 475px) {
+  html {
+    font-size: 47.5px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  html {
+    font-size: 57.5px;
+  }
+}
+@media screen and (min-width: 675px) {
+  html {
+    font-size: 67.5px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  html {
+    font-size: 85px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 192px;
+  }
+}
+
+/* font style */
+*,
+*::after {
+  font-family: 'Arial', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-column-space-around {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flex-space-between {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-space-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-no-align {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.flex-column-no-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ac {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rc {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.avatar-small {
+  display: flex;
+  align-items: center;
+  background-color: rgb(85, 85, 85);
+  border-radius: 50%;
+  height: 2.5rem;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.letter {
+  font-weight: 400;
+  font-family: 'FZZhengHeiS-B-GB';
+  text-align: center;
+  letter-spacing: 0.02rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.ib {
+  display: inline-block;
+}
+
+.img-center {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.img-contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* font style */
+.ft {
+  font-family: 'Arial', 'Microsoft YaHei', '黑体', '宋体', sans-serif;
+}
+
+.red {
+  color: #f16;
+}
+
+.green {
+  color: #00a854;
+}
