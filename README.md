@@ -19,4 +19,12 @@ npm run build
 以750px设计图为主,UniApp开发时以"rpx"作为单位
 参考: https://uniapp.dcloud.net.cn/tutorial/syntax-css.html#尺寸单位
 ```
+```
+src/uni.scss  配置全局Css变量
+src/styles/global.scss 配置全局类名
+```
 
+### 目录说明
+```
+
+```
