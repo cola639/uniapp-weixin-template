@@ -15,8 +15,8 @@ npm run build
 ```
 
 ### 适配注意事项
-```
-以750px设计图开发,UniApp开发时以"rpx"作为单位
+``` 
+以750px设计图开发,UniApp开发时以"rpx"作为单位   750px = 750rpx 1:1
 参考: https://uniapp.dcloud.net.cn/tutorial/syntax-css.html#尺寸单位
 ```
 ```
