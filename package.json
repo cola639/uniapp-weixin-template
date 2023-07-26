@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "uniapp-miniprogram-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -112,5 +112,8 @@
   ],
   "uni-app": {
     "scripts": {}
+  },
+  "engines": {
+    "node": "^14.21.0"
   }
 }

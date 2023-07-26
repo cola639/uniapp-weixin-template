@@ -1,3 +1,7 @@
+### UniAPP MiniProgram Template
+``` 小程序模板
+```
+
 ## Project setup
 ```
 npm install
