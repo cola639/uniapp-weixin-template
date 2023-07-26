@@ -1,5 +1,6 @@
 ### UniAPP MiniProgram Template
 ``` 小程序模板
+    npm run dev:mp-weixin 后使用微信开发者工具载入dist\dev\mp-weixin
 ```
 
 ## Project setup
@@ -9,13 +10,12 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run dev
 npm run dev:mp-weixin
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+npm run build:mp-weixin
 ```
 
 ### 适配注意事项
