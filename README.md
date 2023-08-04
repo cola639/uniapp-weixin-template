@@ -1,7 +1,8 @@
 ### UniAPP MiniProgram Template
-``` 小程序模板
-    npm run dev:mp-weixin 后使用微信开发者工具载入dist\dev\mp-weixin
-```
+ 
+* 小程序模板
+* npm run dev:mp-weixin 后使用微信开发者工具载入dist\dev\mp-weixin
+
 
 ## Project setup
 ```
@@ -30,7 +31,8 @@ src/styles/global.scss 配置全局类名
 
 ### 目录说明
 ```
-├── api         // 请求API                            
+├── api         // 请求API  
+├── config      // 一些基础配置常量,避免魔法数字|字母                     
 ├── module      // UI Module               
 ├── pages       // 页面           
 ├── plugins     // 功能插件 如:消息提示,导出PDF...          
