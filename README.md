@@ -1,9 +1,7 @@
 ### UniAPP MiniProgram Template
- 
-* 小程序模板
-* npm run dev:mp-weixin 后使用微信开发者工具载入dist\dev\mp-weixin
-
-
+```
+  环境 Node Version 14.21.0
+```
 ## Project setup
 ```
 npm install
@@ -11,7 +9,8 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run dev:mp-weixin
+  npm run dev:mp-weixin 
+  使用微信开发者工具载入dist\dev\mp-weixin
 ```
 
 ### Compiles and minifies for production
